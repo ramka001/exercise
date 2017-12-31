@@ -208,8 +208,9 @@ curl -v http://localhost:8080/offers/1
 
 To Update the Application status a PUT request needs to be sent below is an example using curl
 ==============================================================================================
-
+```
 curl -H 'Content-Type: application/json' -H 'Accept: application/json' -X PUT -d '{"jobTitle" : "Software Engineer", "startDate" : "2018-01-01", "numberOfApplications" : 2, "applications" : { "john.doe@gmail.com" : { "candidateEmail" : "john.doe@gmail.com", "resumeText" : "Test Resume.pdf", "applicationStatus" : "INVITED", "_links" : { "offer" : { "href" : "http://localhost:8080/offers/1"  }  } }}}' \http://localhost:8080/offers/1
+```
 
 
 
