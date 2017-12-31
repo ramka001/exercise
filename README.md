@@ -3,11 +3,6 @@ Instructions
 
 The project has been compressed into a zip file called exersize.zip.  You will first need to extract the zip file and build the maven project.
 
-Certains values have been hard coded into the main class i.e. com.heavenhr.exercise.ExerciseApplication.
-
-
-
-
 1) To build run 
 
  mvn clean install 
@@ -16,7 +11,7 @@ Certains values have been hard coded into the main class i.e. com.heavenhr.exerc
 
 mvn spring-boot:run
 
-* It is recommended to use the Postman application or SoapUI for testing the request.  For platform portability I'm sending the requests using curl.
+* It is recommended to either use the Postman application or SoapUI for testing the requests.  In the examples below I'm sending the requests using curl. Certains values have already been hard coded into the main class i.e. com.heavenhr.exercise.ExerciseApplication.
 
 
 
