@@ -349,7 +349,7 @@ curl -v http://localhost:8080/offers/
 Below are the log result which display the insertion updates of the data 
 ========================================================================
 
-
+```
 2018-01-01 00:38:11.136  INFO 6099 --- [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
 2018-01-01 00:38:11.136  INFO 6099 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
 2018-01-01 00:38:11.149  INFO 6099 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 13 ms
@@ -381,3 +381,4 @@ Hibernate: select applicatio0_.application_id as applicat5_0_0_, applicatio0_.id
 2018-01-01 00:38:16.837 DEBUG 6099 --- [nio-8080-exec-2] org.hibernate.SQL                        : select applicatio0_.application_id as applicat5_0_0_, applicatio0_.id as id1_0_0_, applicatio0_.applications_key as applicat6_0_, applicatio0_.id as id1_0_1_, applicatio0_.application_status as applicat2_0_1_, applicatio0_.candidate_email as candidat3_0_1_, applicatio0_.application_id as applicat5_0_1_, applicatio0_.resume_text as resume_t4_0_1_ from application applicatio0_ where applicatio0_.application_id=?
 Hibernate: select applicatio0_.application_id as applicat5_0_0_, applicatio0_.id as id1_0_0_, applicatio0_.applications_key as applicat6_0_, applicatio0_.id as id1_0_1_, applicatio0_.application_status as applicat2_0_1_, applicatio0_.candidate_email as candidat3_0_1_, applicatio0_.application_id as applicat5_0_1_, applicatio0_.resume_text as resume_t4_0_1_ from application applicatio0_ where applicatio0_.application_id=?
 2018-01-01 00:38:16.838 TRACE 6099 --- [nio-8080-exec-2] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [BIGINT] - [3]
+```
