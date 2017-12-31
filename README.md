@@ -22,7 +22,7 @@ mvn spring-boot:run
 
 3) To view the result of the output from command terminal using the curl command as below:-
 ===========================================================================================
-
+```
 curl -v http://localhost:8080/offers
 *   Trying 127.0.0.1...
 * Connected to localhost (127.0.0.1) port 8080 (#0)
@@ -148,13 +148,13 @@ curl -v http://localhost:8080/offers
     "number" : 0
   }
 * Connection #0 to host localhost left intact
-
+```
 
 
 
 To List the offers separateley one by one they can be separated by the id
 =========================================================================
-
+```
 curl -v http://localhost:8080/offers/1
 *   Trying 127.0.0.1...
 * Connected to localhost (127.0.0.1) port 8080 (#0)
@@ -203,7 +203,7 @@ curl -v http://localhost:8080/offers/1
     }
   }
 * Connection #0 to host localhost left intact
-
+```
 
 
 To Update the Application status a PUT request needs to be sent below is an example using curl
@@ -216,7 +216,7 @@ curl -H 'Content-Type: application/json' -H 'Accept: application/json' -X PUT -d
 
 Once the change is made the update can be view using the a curl GET request
 ===========================================================================
-
+```
 curl -v http://localhost:8080/offers/
 *   Trying 127.0.0.1...
 * Connected to localhost (127.0.0.1) port 8080 (#0)
@@ -341,7 +341,7 @@ curl -v http://localhost:8080/offers/
     "totalPages" : 1,
     "number" : 0
   }
-
+```
 
 
 
