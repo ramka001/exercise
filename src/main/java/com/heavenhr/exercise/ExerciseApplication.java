@@ -42,17 +42,17 @@ public class ExerciseApplication implements CommandLineRunner {
 		final SimpleDateFormat dateFormat = new SimpleDateFormat("dd/mm/yyyy");
 		final Date date = dateFormat.parse(startDate);
 
-		Offer offer1 = new Offer();
+		final Offer offer1 = new Offer();
 		offer1.setJobTitle("Software Engineer");
 		offer1.setStartDate(date);
 		offerRepository.save(offer1);
 
-		Offer offer2 = new Offer();
+		final Offer offer2 = new Offer();
 		offer2.setJobTitle("Solution Architect");
 		offer2.setStartDate(date);
 		offerRepository.save(offer2);
 
-		Offer offer3 = new Offer();
+		final Offer offer3 = new Offer();
 		offer3.setJobTitle("Integration Engineer");
 		offer3.setStartDate(date);
 		offerRepository.save(offer2);
