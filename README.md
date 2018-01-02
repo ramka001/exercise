@@ -1,8 +1,6 @@
 Instructions
 ============
 
-The project has been compressed into a zip file called exersize.zip.  You will first need to extract the zip file and build the maven project.
-
 1) To build run 
 
  mvn clean install 
